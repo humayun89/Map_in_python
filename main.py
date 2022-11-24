@@ -1,10 +1,10 @@
 # Map function:
 def add_seven(my_number):
-    outcome = []
+    out_come = []
     for numbers in my_number:
         numbers += 7
-        outcome.append(numbers)
-    return outcome
+        out_come.append(numbers)
+    return out_come
 
 
 my_number = [500, 100, 3000, 20000]
