@@ -32,3 +32,13 @@ def add_tovg(x,y):
 list(map(add_tovg, my_specific_number,my_power_lists) )
 # Using lambda expression:
 list(map(lambda x,y:x+y, my_specific_number, my_power_lists ))
+"""Use the map function to create a list that contains the number of occurrences of the letter n in each element in the provided list.
+Store the output in a variable called mapped_list
+Hints:
+You should use map , lambda , count , and list
+We implemented the code before for the occurrences in the poem exercise if you remember."""
+input_list = ['What we think, we become.', 'Every moment is a fresh beginning.', 'Change the world by being yourself.',
+              'Hate comes from intimidation, love comes from appreciation',
+              'If I’m gonna tell a real story, I’m gonna start with my name.',
+              'Oh, the things you can find, if you don’t stay behind.']
+mapped_list = list(map(lambda x: x.count("n"), input_list))
