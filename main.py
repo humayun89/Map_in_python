@@ -21,3 +21,14 @@ the lambda function on its called iterable or list )"""
 my_numbers = [1,2,3,4]
 out_comes = map(lambda element : element+1, my_numbers)
 list(out_comes)
+# How to do power to a lists :
+
+my_specific_number=[20,30,97]
+my_power_lists = [25,30,20]
+list(map(pow,my_specific_number,my_power_lists))
+""" When you try to add both lists and do the power operation"""
+def add_tovg(x,y):
+    return x+y
+list(map(add_tovg, my_specific_number,my_power_lists) )
+# Using lambda expression:
+list(map(lambda x,y:x+y, my_specific_number, my_power_lists ))
