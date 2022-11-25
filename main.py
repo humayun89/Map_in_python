@@ -18,6 +18,6 @@ list(output_list)
 # Using lambda function :
 """output=map(lambda input: what we want to return from the function, where we want to apply
 the lambda function on its called iterable or list )"""
-my_numbers= [1,2,3,4]
-out_comes=map(lamda element+1: my_numbers)
+my_numbers = [1,2,3,4]
+out_comes = map(lambda element : element+1, my_numbers)
 list(out_comes)
